@@ -4,7 +4,7 @@ class Contador():
     def incrementa(self):
         self.numero += 1
     def decrementa(self):
-        self.numero -= 1
+        self.numero -=1
     def get_numero(self):
         return self.numero
     def set_numero(self, numero):
