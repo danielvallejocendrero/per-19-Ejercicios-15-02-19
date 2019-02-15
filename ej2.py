@@ -1,9 +1,9 @@
 class Contador():
     def __init__(self, numero):
         self.numero = numero
-    def incremento(self):
+    def incrementa(self):
         self.numero += 1
-    def decremento(self):
+    def decrementa(self):
         self.numero -= 1
     def get_numero(self):
         return self.numero
